@@ -1,0 +1,495 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1173px;
+    margin: 0 auto;
+}
+/*Верхушка сайта (Header)*/
+.logo-txt {
+    font-weight: bold;
+    font-size: 20px;
+    color: #212121;
+}
+.Title-main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 30px 0;
+}
+.menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    color: #212121;
+    font-size: 20px;
+    margin-right: 27px;
+}
+.Search img {
+    margin-top: 6px;
+}
+.right-elem {
+    display: flex;
+}
+/*Секция с главной фотографией*/
+.main-title {
+    background-image: url('../img/bgFerst.png');
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.txt-title-section-one .maintxt {
+    font-family: 'Open Sans SemiBold', Arial, sans-serif;
+    font-weight:100;
+    margin: 0;
+    color: #fff;
+    font-size: 60px;   
+}
+.undertxt-of-maintxt {
+    font-size: 22px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 400;
+    color: #fff; 
+    margin-top: 20px;
+}
+.maintxt {
+    margin: 0;
+}
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#one-btn {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', Courier, monospace;
+    font-weight: bold;
+    border: solid 3px;
+    padding: 21px 29px;
+    margin-right: 12px;
+}
+#two-btn {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', Courier, monospace;
+    font-weight: bold;
+    background-color: #00897b;
+    padding: 24px 32px;
+    margin-left: 12px;
+}
+.btn-main-txt {
+    margin-top: 100px;
+}
+
+.txt-title-section-one {
+    margin-top: 200px;
+}
+.img-down {
+    margin-top: 130px;
+}
+/*Секция с о нас*/
+.au {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.undertxt-ab {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: #212121;
+    width: 620px;
+}
+.txt-about-us {
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-about-us {
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+h4 {
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 29px;
+}
+.block-title p {
+    width: 262px;
+    margin: 0;
+}
+.block-title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.about-us {
+    margin-bottom: 200px;
+}
+/*Секция о наших сервисах*/
+.bg3 {
+    background: #e4fdf9;   
+}
+.txtBG-3 {
+    padding-top: 188px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.panelbg3 {
+    width: 368px;
+    height: 430px;
+    margin-bottom: 40px;
+    background: #fff;  
+}
+.blockPanel {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.titlebtn {
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: #000;
+    border: solid 2px #000;
+    padding: 10px 11px;
+    font-size: 20px;
+}
+.headerPanel {
+    font-size: 20px;
+}
+.textunderheader {
+    width: 265px;
+    font-size: 15px;
+    margin-left: 53px;
+    margin-bottom: 50px;
+}
+.panelbg3 img {
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.titleBg3 {
+    margin-top: 114px;
+    padding-bottom: 70px;
+}
+.titleBg3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.btnttl4 {
+    font-size: 20px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    padding: 13px 24px;
+    color: #000;
+    margin: 0px 22px;
+    border: solid #00897b;
+}
+/*Секция о последних работах*/
+.titleBTN {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.imgModern {
+    margin-bottom: 20px;
+}
+#btn4S {
+    font-size: 20px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    padding: 13px 50px;
+    color: #fff;
+    margin: 0px 22px;
+    background: #00897b;
+}
+.btnSec4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 138px;
+}
+
+/*Секция о планах*/
+.bg4 {
+    background: #f0f1f1;
+}
+.itm {
+    display: block;
+    position: relative;
+    background: #3949ab;
+    width: 370px;
+    height: 210px;
+    font-family: 'Open Sans Regular', Arial, sans-serif;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+.headerITM {
+    margin: 47px 0 35px 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.pITM {
+    margin: 0;
+    color: #fff;
+}
+.txtITM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.priceOne {
+    font-size: 50px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.elemPrice {
+    display: flex;
+}
+.elemPrice {
+    color: #fff;
+}
+.price {
+    margin: 0;
+    font-size: 50px;
+}
+.pricetxt {
+    margin-top: 30px; 
+    color: #fff;   
+    margin-left: 5px;
+}
+.dollar {
+    font-size: 25px;
+    margin: 0;
+}
+.centerTxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blockitm {
+    background: #fff;
+    width: 370px;
+}
+.itmCB {
+    color: #3f3f3f;
+    margin-top: 20px;
+}
+.itmCB p {
+    margin: 0;
+}
+.test{
+    border-top:1px solid #bfbfbf;
+    width: 150px;
+    margin: 14px 0;
+}
+.itemCenterBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans light', Arial, sans-serif;
+}
+.lineC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnCBDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+.btnCB {
+    color: #000;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 20px;
+    border: #000 solid 2px;
+    padding: 13px 20px; 
+    margin-top: 66px;
+}
+.ctr {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    padding-bottom: 120px;
+}
+/*Секция о команде*/
+.Team {
+    margin-top: 126px;
+    display: flex;
+    justify-content: space-between;
+}
+.Man {
+    width: 370px;
+}
+.FIO {
+    color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 39px;
+}
+.Name {
+    font-size: 20px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: bolder;
+    margin: 0;
+}
+.JobTitle {
+    margin: 8px 0 0 0;
+    display: flex;
+    justify-content: center;
+
+}
+.TC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgNet {
+    background: #f0f1f1;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.net {
+    width: 273px;
+    display: flex;
+    justify-content: space-between;
+}
+.cntrItemsNet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+}
+.Circle {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 117px;
+}
+.CRL {
+    margin: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    background: #00897b;
+}
+/*Секция о Блоге*/
+.bg5 {
+    background: #e4fdf9;
+}
+.seotxt {
+    margin-left: 30px;
+    font-size: 25px;
+}
+.titleHead {
+    color: #00897b;
+    margin-top: 40px;
+}
+.ElemOne {
+    display: flex;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.Datablock {
+    display: flex;
+    margin-left: 30px;
+}
+.imgData {
+    width: 16px;
+    height: 18px;
+}
+.datatxt {
+    color: #000;
+    margin: 0;
+    margin-left: 8px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.MainData {
+    display: flex;
+}
+.Datablock.datablockOne {
+    margin-left: 35px;
+}
+.txtFish {
+    margin-left: 30px;
+    margin-top: 25px;
+    width: 452px;
+    color: #212121;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.ElemTwo {
+    display: flex;
+    justify-content: space-between;
+}
+.allITMblog {
+    margin-top: 115px;
+}
+.seotxtTwo {
+    margin-left: 0px;
+}
+.MainDatatwo {
+    margin-left: 0px;
+}
+.DatablockTwow {
+    margin-left: 0px;
+}
+.txtFishtwo {
+    margin-left: 0px;
+}
+.btnMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;
+    padding-bottom: 122px;
+}
+/*Секция о обратной связи*/
+
+.titleLastSEc {
+    background-image: url('../img/rawpixel-com-252127.png');
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.lastSec p {
+    color: #ffffff;
+}
+.lastSec {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 115px;
+}
+
